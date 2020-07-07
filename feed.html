@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsFeed</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+  
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="js/lightbox.js"></script> -->
+    <script type="text/javascript" src="html5lightbox/jquery.js"></script>
+    <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
+    <link rel="stylesheet" href="css/cheers.css">
+    <script type="text/javascript">
+        var html5lightbox_options = {
+            watermark: "",
+            watermarklink: ""
+        };
+    </script>
+</head>
+
+<body>
+    
+    <div class="cake" >
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="candle">
+            <div class="flame"></div>
+        </div>
+    </div>
+    <div class="cake align2" >
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="candle">
+            <div class="flame"></div>
+        </div>
+    </div>
+    <nav class="navigation">
+        <div class="navigation__column">
+            <a href="feed.html">
+                <!-- Master branch comment -->
+                <img src="images/logo.png" />
+            </a>
+        </div>
+        <div class="navigation__column">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="navigation__column">
+            <ul class="navigations__links">
+                <li class="navigation__list-item">
+                    <a href="feed.html" class="navigation__link">
+                        <i class="fa fa-home fa-lg"></i>
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="explore.html" class="navigation__link">
+                        <i class="fa fa-compass fa-lg"></i>
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="cheers.html" class="navigation__link">
+                        <i class="fa fa-heart-o fa-lg"></i>
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="profile.html" class="navigation__link">
+                        <i class="fa fa-user-o fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="feed">
+        <div class="status_section" id="status_p">
+           
+            <a href="videos/Status 1 - Sherin.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Sherin.jpg">
+                <p style="font-size: 14px;">Sherin</p>
+            </a>
+            <a href="videos/Status 2 - Arulya .mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Arulya.jpg" >
+                <p style="font-size: 14px;">Arulya</p>
+            </a>
+            <a href="videos/Status3 - Nidhi.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Nidhi.jpg" >
+                <p style="font-size: 14px;">Nidhi</p>
+            </a>
+            <a href="videos/Status4 - Gayathri.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Gayathri.jpg" >
+                <p style="font-size: 14px;">Gayathri</p>
+            </a>
+            <a href="videos/Status5 - Indhumathi.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Indhumathi.jpg">
+                <p style="font-size: 14px;">Indhumathi</p>
+            </a>
+            <a href="videos/Status 6 - Krithika.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Krithika.jpg" >
+                <p style="font-size: 14px;">Krithika</p>
+            </a>
+            <a href="videos/Status 7 - Sanmitha .mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Sanmitha.jpg"  >
+                <p style="font-size: 14px;">Sanmitha</p>
+            </a>
+            <a href="videos/Status 8 - Adi.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Adithya Ram.jpg">
+                <p style="font-size: 14px;">Adi</p>
+            </a>
+            <a href="videos/Status 9 - Akshay.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Akshay.jpg">
+                <p style="font-size: 14px;">Akshay</p>
+            </a>
+            <a href="videos/Status 10 - Roopa .mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Roopa.jpg" >
+                <p style="font-size: 14px;">Roopa</p>
+            </a>
+            <a href="videos/Status 11 - Varshini.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Varshini.jpg">
+                <p style="font-size: 14px;">Varshini</p>
+            </a>
+            <a href="videos/Status 12 - Dhanya.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Dhanya.jpg" >
+                <p style="font-size: 14px;">Dhanya</p>
+            </a>
+            <a href="videos/Status13 - Nitin.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Nitin.jpg">
+                <p style="font-size: 14px;">Nitin</p>
+            </a>
+            <a href="videos/Status 14 - Ugitha.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Ugitha.jpg">
+                <p style="font-size: 14px;">Ugitha</p>
+            </a>
+            <a href="videos/Status 15 - JanJay.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/JanJay.jpg">
+                <p style="font-size: 14px;">JanJay</p>
+            </a>
+            <a href="videos/Status 16 - Madhavan.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Madhavan.jpg" >
+                <p style="font-size: 14px;">Madhavan</p>
+            </a>
+            <a href="videos/Status 17 - Tanuj.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Tanuj.jpg" >
+                <p style="font-size: 14px;">Tanuj</p>
+            </a>
+            <a href="videos/Status 18 - Tapan.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Tapan.jpg" >
+                <p style="font-size: 14px;">Tapan</p>
+            </a>
+            <a href="videos/Status 19 - G.Harish.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/G. Harish.jpg" >
+                <p style="font-size: 14px;">Harish</p>
+            </a>
+            <a href="videos/Status 20 - Aravind.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Aravind.jpg"  >
+                <p style="font-size: 14px;">Aravind</p>
+            </a>
+            <a href="videos/Status 21 - Swathi.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Swathi.jpg">
+                <p style="font-size: 14px;">Swathi</p>
+            </a>
+            <a href="videos/Status 22 - Tino.mp4" class="html5lightbox" style="text-decoration:none">
+                <img src="images/Tino.jpg" >
+                <p style="font-size: 14px;">Tino</p>
+            </a>
+
+        </div>
+        <div class="photo video-wrapper">
+            <header class="photo__header">
+                <img src="images/Deppak.jpg" class="photo__avatar"/>
+                <div class="photo__user-info">
+                    <span class="photo__author">p_m_deeps</span>
+                    <span class="photo__location">NITC</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/post0.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">1.4M likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">sri_ram</span> paah!!!!
+                    </li>
+                </ul>
+                <span class="photo__time-ago">22 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Daddy.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">DaddyMummy</span>
+                    <span class="photo__location">M.G.R nagar</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/dadMOM.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">915 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Shreeja</span> super super!!
+                    </li>
+                </ul>
+                <span class="photo__time-ago">18 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+<!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Muthappa.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Muthappa & Family</span>
+                    <span class="photo__location">Nesapakam</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Muthu & FLY.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">720 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">p_m_deeps</span> adei krithik! oru edathula ukaraaaaaa
+                    </li>
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">p.m_krithik</span> i'm a busy man dood
+                    </li>
+                </ul>
+                <span class="photo__time-ago">11 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Karthik periappa.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Karthick Mama & Family</span>
+                    <span class="photo__location">Chennai</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post3 - Karthick Mama and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">832 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Nishant</span> Niceee :D
+                    </li>
+                </ul>
+                <span class="photo__time-ago">4 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Vetriselvi.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Vetriselvi Aunty & Family</span>
+                    <span class="photo__location">Chennai</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post 4 - Vetriselvi Aunty and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">751 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Sanjay</span> Happy birthday Hemasri
+                    </li>
+                </ul>
+                <span class="photo__time-ago">1 day ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/POST5THUMB.PNG" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Kiran Uncle & Family</span>
+                    <span class="photo__location">Porur</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/post 5.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">770 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Jeevan</span> Stay blessed Ammu
+                    </li>
+                </ul>
+                <span class="photo__time-ago">21 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Suresh.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Suresh Peripa & Family</span>
+                    <span class="photo__location">Velachery</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post 6 - Suresh Peripa and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">444 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Suguna</span> Happy birthday kuttima
+                    </li>
+                </ul>
+                <span class="photo__time-ago">8 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Shreya.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Shreya & Family</span>
+                    <span class="photo__location">K.K Nagar</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post 7 - Shreya and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">1.2K likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Shreya</span> HBD BFF <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </li>
+                </ul>
+                <span class="photo__time-ago">5 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Peri uncle.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Periya Uncle,Raja anna & Family</span>
+                    <span class="photo__location">M.G.R Nagar</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post 8 - Periya Uncle and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">542 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Sujatha</span> love this!
+                    </li>
+                </ul>
+                <span class="photo__time-ago">21 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Sekar.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Sekar Mama & Family</span>
+                    <span class="photo__location">Madurai</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post 10 Sekar Mama and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">393 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Gowtham</span> Happy birthdayyyyy
+                    </li>
+                </ul>
+                <span class="photo__time-ago">21 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Nisha Aunty.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Nisha Aunty & Family</span>
+                    <span class="photo__location">8th Street</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/Post 9 - Nisha aunty and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">692 likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Nisha</span> Great!
+                    </li>
+                </ul>
+                <span class="photo__time-ago">6 hours ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+        <!-- --------------------------------------------------------------------------- -->
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/Nisha akka.jpg" class="photo__avatar" />
+                <div class="photo__user-info">
+                    <span class="photo__author">Nisha Akka & Family</span>
+                    <span class="photo__location">Chetpet</span>
+                </div>
+            </header>
+            <div style="overflow: hidden;">
+            <video src="videos/post 11 - Nisha akka and Family.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+            <div class="photo__info">
+                <div class="photo__actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart fa-lg" style="color: red;"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o fa-lg"></i>
+                    </span>
+                </div>
+                <span class="photo__likes">1.3M likes</span>
+                <ul class="photo__comments">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">Megan</span> Love Youuuuu Hemasri akkaaaaaaaa and your cake
+                    </li>
+                </ul>
+                <span class="photo__time-ago">1 hour ago</span>
+                <div class="photo__add-comment-container">
+                    <textarea name="comment" placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- -->
+   <!-- --------------------------------------------------------------------------- -->
+   <div class="photo">
+    <header class="photo__header">
+        <img src="images/Aravind.jpg" class="photo__avatar" />
+        <div class="photo__user-info">
+            <span class="photo__author">Aravind</span>
+            <span class="photo__location">Thiruvanmiyur</span>
+        </div>
+    </header>
+    <div style="overflow: hidden;">
+    <video src="videos/coll.mp4" controls width="600px" height="480px" style="position: relative;left:-1px;top: -1px;"></video></div>
+    <div class="photo__info">
+        <div class="photo__actions">
+            <span class="photo__action">
+                <i class="fa fa-heart fa-lg" style="color: red;"></i>
+            </span>
+            <span class="photo__action">
+                <i class="fa fa-comment-o fa-lg"></i>
+            </span>
+        </div>
+        <span class="photo__likes">9k likes</span>
+        <ul class="photo__comments">
+            <li class="photo__comment">
+                <span class="photo__comment-author">Avinesh</span> Awsomeeee
+            </li>
+        </ul>
+        <span class="photo__time-ago">1 hour ago</span>
+        <div class="photo__add-comment-container">
+            <textarea name="comment" placeholder="Add a comment..."></textarea>
+            <i class="fa fa-ellipsis-h"></i>
+        </div>
+    </div>
+</div>
+<!-- --------------------------- -->
+    </main>
+    <footer class="footer" style="margin-left: 33%;">
+        <div class="footer__column">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">About Us</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Support</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Blog</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Press</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Api</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Jobs</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Privacy</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Terms</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Directory</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+        </footer>
+</body>
+
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+</script>
+<script>
+    $(document).ready(function(){
+  $("#status_p a").click(function(event){
+    event.target.style.borderColor = "grey";
+  });
+});
+
+</script>
+</html>

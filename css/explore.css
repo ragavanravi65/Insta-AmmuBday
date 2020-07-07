@@ -1,0 +1,35 @@
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconalign{
+  position: absolute;
+  top: 15px;
+  right: 45px;
+  font-size: 18px;
+  color: aliceblue;
+}
+.img_gallery{
+	margin:20px 80px;
+}
+.img_gallery img{
+	margin:3px;
+	width:240px;
+	padding: 5px;	
+	transition: 1s;
+	height: 240px;
+	object-fit: cover;
+	object-position: center;
+	
+
+}
+
+.img_gallery img:hover,
+.img_gallery video:hover{
+	transform: scale(1.1);
+	filter:opacity(0.5);
+
+	
+}
